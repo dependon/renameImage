@@ -1,0 +1,23 @@
+{
+    "title": "Outil de renommage d'images par lot",
+    "select_folder": "Sélectionner le dossier racine :",
+    "browse": "Parcourir...",
+    "start_rename": "Démarrer le renommage",
+    "processing": "Traitement...",
+    "log": "Journal de traitement :",
+    "task_running": "Une tâche est déjà en cours !",
+    "select_folder_error": "Veuillez d'abord sélectionner un dossier racine !",
+    "invalid_folder_error": "Le chemin sélectionné n'est pas un dossier valide !",
+    "confirm_operation": "Êtes-vous sûr de vouloir renommer récursivement les images dans le dossier '{folder}' et tous ses sous-dossiers ?\nCette opération ne peut pas être annulée !",
+    "completed": "Le processus de renommage des images est terminé ! Veuillez consulter le journal pour plus de détails.",
+    "unexpected_error": "!!! Une erreur grave inattendue s'est produite : {error}",
+    "skip_root": "Ignorer le répertoire racine ou le chemin invalide : {folder_path}",
+    "start_processing": "--- Début du traitement du dossier : {folder_path} ---",
+    "skip_same_name": "Ignorer (ancien et nouveau nom identiques) : {filename}",
+    "warning_existing_file": "Avertissement : Le fichier cible existe déjà, ignorer le renommage : {filename} -> {new_filename}",
+    "success": "Succès : '{filename}' -> '{new_filename}'",
+    "error_rename": "Erreur : Impossible de renommer '{filename}' - {error}",
+    "folder_processed": "--- Traitement du dossier terminé : {folder_path} | {renamed_count} fichiers renommés ---",
+    "recursive_start": "=== Début du traitement récursif du répertoire racine : {root_dir} ===",
+    "recursive_complete": "=== Traitement récursif terminé ===\nUn total de {total_renamed} fichiers d'images ont été renommés."
+}

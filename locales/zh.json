@@ -1,0 +1,23 @@
+{
+    "title": "图片批量重命名工具",
+    "select_folder": "选择根文件夹:",
+    "browse": "浏览...",
+    "start_rename": "开始重命名",
+    "processing": "处理中...",
+    "log": "处理日志:",
+    "task_running": "任务已经在运行中！",
+    "select_folder_error": "请先选择一个根文件夹！",
+    "invalid_folder_error": "选择的路径不是一个有效的文件夹！",
+    "confirm_operation": "确定要递归重命名文件夹 '{folder}' 及其所有子文件夹下的图片吗？\n此操作不可撤销！",
+    "completed": "图片重命名处理已完成！请查看日志了解详情。",
+    "unexpected_error": "!!! 发生未预料的严重错误: {error}",
+    "skip_root": "跳过根目录或无效路径: {folder_path}",
+    "start_processing": "--- 开始处理文件夹: {folder_path} ---",
+    "skip_same_name": "跳过（新旧名称相同）: {filename}",
+    "warning_existing_file": "警告：目标文件已存在，跳过重命名: {filename} -> {new_filename}",
+    "success": "成功: '{filename}' -> '{new_filename}'",
+    "error_rename": "错误: 重命名 '{filename}' 失败 - {error}",
+    "folder_processed": "--- 文件夹处理完毕: {folder_path} | 重命名 {renamed_count} 个文件 ---",
+    "recursive_start": "=== 开始递归处理根目录: {root_dir} ===",
+    "recursive_complete": "=== 递归处理完成 ===\n总共重命名了 {total_renamed} 个图片文件。"
+}

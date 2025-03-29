@@ -1,0 +1,23 @@
+{
+    "title": "Batch Image Renaming Tool",
+    "select_folder": "Select Root Folder:",
+    "browse": "Browse...",
+    "start_rename": "Start Renaming",
+    "processing": "Processing...",
+    "log": "Processing Log:",
+    "task_running": "Task is already running!",
+    "select_folder_error": "Please select a root folder first!",
+    "invalid_folder_error": "The selected path is not a valid folder!",
+    "confirm_operation": "Are you sure you want to recursively rename images in the folder '{folder}' and all its subfolders?\nThis operation cannot be undone!",
+    "completed": "Image renaming process is complete! Please check the log for details.",
+    "unexpected_error": "!!! An unexpected severe error occurred: {error}",
+    "skip_root": "Skipping root directory or invalid path: {folder_path}",
+    "start_processing": "--- Starting to process folder: {folder_path} ---",
+    "skip_same_name": "Skipping (same old and new name): {filename}",
+    "warning_existing_file": "Warning: Target file already exists, skipping renaming: {filename} -> {new_filename}",
+    "success": "Success: '{filename}' -> '{new_filename}'",
+    "error_rename": "Error: Failed to rename '{filename}' - {error}",
+    "folder_processed": "--- Folder processing complete: {folder_path} | Renamed {renamed_count} files ---",
+    "recursive_start": "=== Starting recursive processing of root directory: {root_dir} ===",
+    "recursive_complete": "=== Recursive processing complete ===\nA total of {total_renamed} image files were renamed."
+}

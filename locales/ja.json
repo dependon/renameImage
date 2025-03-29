@@ -1,0 +1,23 @@
+{
+    "title": "画像一括リネームツール",
+    "select_folder": "ルートフォルダを選択:",
+    "browse": "参照...",
+    "start_rename": "リネーム開始",
+    "processing": "処理中...",
+    "log": "処理ログ:",
+    "task_running": "タスクは既に実行中です！",
+    "select_folder_error": "最初にルートフォルダを選択してください！",
+    "invalid_folder_error": "選択されたパスは有効なフォルダではありません！",
+    "confirm_operation": "フォルダ '{folder}' とそのすべてのサブフォルダ内の画像を再帰的にリネームしますか？\nこの操作は元に戻せません！",
+    "completed": "画像のリネーム処理が完了しました！詳細はログを確認してください。",
+    "unexpected_error": "!!! 予期せぬ重大なエラーが発生しました: {error}",
+    "skip_root": "ルートディレクトリまたは無効なパスをスキップ: {folder_path}",
+    "start_processing": "--- フォルダの処理を開始: {folder_path} ---",
+    "skip_same_name": "スキップ（新旧の名前が同じ）: {filename}",
+    "warning_existing_file": "警告：対象ファイルが既に存在します、リネームをスキップ: {filename} -> {new_filename}",
+    "success": "成功: '{filename}' -> '{new_filename}'",
+    "error_rename": "エラー: '{filename}' のリネームに失敗 - {error}",
+    "folder_processed": "--- フォルダ処理完了: {folder_path} | リネーム済みファイル数: {renamed_count} ---",
+    "recursive_start": "=== ルートディレクトリの再帰処理を開始: {root_dir} ===",
+    "recursive_complete": "=== 再帰処理完了 ===\n合計 {total_renamed} 個の画像ファイルをリネームしました。"
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Ferramenta de Renomeação em Lote de Imagens",
+    "select_folder": "Selecionar Pasta Raiz:",
+    "browse": "Procurar...",
+    "start_rename": "Iniciar Renomeação",
+    "processing": "Processando...",
+    "log": "Registro de Processamento:",
+    "task_running": "Tarefa já está em execução!",
+    "select_folder_error": "Por favor, selecione primeiro uma pasta raiz!",
+    "invalid_folder_error": "O caminho selecionado não é uma pasta válida!",
+    "confirm_operation": "Tem certeza que deseja renomear recursivamente as imagens na pasta '{folder}' e todas as suas subpastas?\nEsta operação não pode ser desfeita!",
+    "completed": "Processo de renomeação de imagens está concluído! Por favor, verifique o registro para detalhes.",
+    "unexpected_error": "!!! Ocorreu um erro grave inesperado: {error}",
+    "skip_root": "Pulando diretório raiz ou caminho inválido: {folder_path}",
+    "start_processing": "--- Começando a processar pasta: {folder_path} ---",
+    "skip_same_name": "Pulando (nome antigo e novo são iguais): {filename}",
+    "warning_existing_file": "Aviso: Arquivo de destino já existe, pulando renomeação: {filename} -> {new_filename}",
+    "success": "Sucesso: '{filename}' -> '{new_filename}'",
+    "error_rename": "Erro: Falha ao renomear '{filename}' - {error}",
+    "folder_processed": "--- Processamento da pasta concluído: {folder_path} | {renamed_count} arquivos renomeados ---",
+    "recursive_start": "=== Iniciando processamento recursivo do diretório raiz: {root_dir} ===",
+    "recursive_complete": "=== Processamento recursivo concluído ===\nUm total de {total_renamed} arquivos de imagem foram renomeados."
+}

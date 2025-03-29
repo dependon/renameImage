@@ -1,0 +1,23 @@
+{
+    "title": "Batch-Bildumbenennungstool",
+    "select_folder": "Stammordner auswählen:",
+    "browse": "Durchsuchen...",
+    "start_rename": "Umbenennung starten",
+    "processing": "Verarbeitung...",
+    "log": "Verarbeitungsprotokoll:",
+    "task_running": "Aufgabe läuft bereits!",
+    "select_folder_error": "Bitte wählen Sie zuerst einen Stammordner aus!",
+    "invalid_folder_error": "Der ausgewählte Pfad ist kein gültiger Ordner!",
+    "confirm_operation": "Sind Sie sicher, dass Sie die Bilder im Ordner '{folder}' und allen Unterordnern rekursiv umbenennen möchten?\nDiese Operation kann nicht rückgängig gemacht werden!",
+    "completed": "Bildumbenennungsprozess ist abgeschlossen! Bitte überprüfen Sie das Protokoll für Details.",
+    "unexpected_error": "!!! Ein unerwarteter schwerwiegender Fehler ist aufgetreten: {error}",
+    "skip_root": "Überspringe Stammverzeichnis oder ungültigen Pfad: {folder_path}",
+    "start_processing": "--- Beginne mit der Verarbeitung des Ordners: {folder_path} ---",
+    "skip_same_name": "Überspringe (alter und neuer Name sind gleich): {filename}",
+    "warning_existing_file": "Warnung: Zieldatei existiert bereits, überspringe Umbenennung: {filename} -> {new_filename}",
+    "success": "Erfolgreich: '{filename}' -> '{new_filename}'",
+    "error_rename": "Fehler: Konnte '{filename}' nicht umbenennen - {error}",
+    "folder_processed": "--- Ordnerverarbeitung abgeschlossen: {folder_path} | {renamed_count} Dateien umbenannt ---",
+    "recursive_start": "=== Starte rekursive Verarbeitung des Stammverzeichnisses: {root_dir} ===",
+    "recursive_complete": "=== Rekursive Verarbeitung abgeschlossen ===\nInsgesamt wurden {total_renamed} Bilddateien umbenannt."
+}
