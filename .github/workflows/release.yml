@@ -4,6 +4,8 @@ on:
   push:
     tags:
       - 'v*'
+  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   build:
@@ -34,8 +36,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install -r requirements.txt
         pip install pyinstaller
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       shell: bash
 
     - name: Install system dependencies (Linux)
@@ -46,7 +48,7 @@ jobs:
 
     - name: Build with PyInstaller
       run: |
-        pyinstaller --onefile --windowed --name "${{ matrix.output_name }}" rename_images_gui.py
+        pyinstaller --onefile --windowed --name "${{ matrix.output_name }}" --add-data "locales:locales" rename_images_gui.py
       shell: bash
 
     - name: Upload artifact
