@@ -1,0 +1,10 @@
+name: crop-video-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - opencv-python>=4.0.0
+    - Pillow>=8.0.0
